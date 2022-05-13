@@ -1,5 +1,10 @@
 package indi.alain.Leetcode.onetoten;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author dll
  * @date 20220511
@@ -26,7 +31,6 @@ public class BinarySearch {
         int[] nums = new int[]{5};
         int target = 5;
         System.out.println(binarySearch(nums, target));
-
     }
 
 }

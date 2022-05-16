@@ -1,3 +1,3 @@
 # LeetCode
 LeetCode base on java
-- 一日两题
+- 一日one题

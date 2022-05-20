@@ -1,4 +1,4 @@
-package indi.alain.Leetcode.onetoten;
+package indi.alain.Leetcode.array;
 
 import java.util.Arrays;
 

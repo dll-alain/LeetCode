@@ -1,5 +1,5 @@
-package indi.alain.Leetcode.LinkList;
-import indi.alain.Leetcode.LinkList.RemoveNthFromEnd.ListNode;
+package indi.alain.Leetcode.linkList;
+import indi.alain.Leetcode.linkList.RemoveNthFromEnd.ListNode;
 
 /**
  * @author d

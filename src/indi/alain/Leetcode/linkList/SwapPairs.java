@@ -1,10 +1,20 @@
-package indi.alain.Leetcode.onetoten;
-import indi.alain.Leetcode.onetoten.ReverseList.ListNode;
+package indi.alain.Leetcode.linkList;
+
 
 /**
  * @author dll
  */
 public class SwapPairs {
+
+    static class ListNode{
+        public ListNode next;
+        public int val;
+
+        public ListNode(int val) {
+            this.val = val;
+        }
+    }
+
     public ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;

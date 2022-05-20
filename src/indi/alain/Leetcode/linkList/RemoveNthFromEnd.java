@@ -1,4 +1,4 @@
-package indi.alain.Leetcode.LinkList;
+package indi.alain.Leetcode.linkList;
 
 /**
  * @author d

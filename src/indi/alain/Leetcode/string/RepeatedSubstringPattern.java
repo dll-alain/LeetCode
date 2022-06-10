@@ -1,5 +1,7 @@
 package indi.alain.Leetcode.string;
 
+import java.util.Stack;
+
 /**
  * KMP 重复字符串
  * @author d

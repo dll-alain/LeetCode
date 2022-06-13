@@ -39,7 +39,5 @@ public class StrStr {
         return next;
     }
 
-    public static void main(String[] args) {
 
-    }
 }

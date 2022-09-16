@@ -1,9 +1,7 @@
 package indi.alain.Leetcode.test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * @author d
@@ -11,7 +9,14 @@ import java.util.Queue;
 public class BinaryTree01 {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
+
+        Calendar now = Calendar.getInstance();
+        System.out.println(now.get(Calendar.YEAR));
+        System.out.println(now.get(Calendar.MONTH));
+        System.out.println(now.get(Calendar.DAY_OF_MONTH));
+        System.out.println(now.get(Calendar.HOUR));
+        System.out.println(now.get(Calendar.MINUTE));
+        System.out.println(now.get(Calendar.SECOND));
+
     }
 }

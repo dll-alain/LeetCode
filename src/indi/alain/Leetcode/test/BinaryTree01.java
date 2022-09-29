@@ -18,5 +18,10 @@ public class BinaryTree01 {
         System.out.println(now.get(Calendar.MINUTE));
         System.out.println(now.get(Calendar.SECOND));
 
+        String s1 = "abc";
+        s1.length();
+        StringBuilder sb = new StringBuilder(s1);
+        sb.length();
+
     }
 }

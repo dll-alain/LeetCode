@@ -38,6 +38,7 @@ LeetCode base on java
 - 1003 组合总和3 candidate 有重复，但是结果需要去重
 - 1008 回文字符串切割
 - 1009 复原ip地址
+- 1010 幂集
 
 
 

@@ -1,49 +1,44 @@
 package indi.alain.leetcode.backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author d
  */
-public class Permute {
-
+public class PermuteUnique {
     private List<List<Integer>> result = new ArrayList<>();
     private LinkedList<Integer> path = new LinkedList<>();
     private boolean[] used;
-
-    public  List<List<Integer>> permute(int[] nums) {
+    public List<List<Integer>> permuteUnique(int[] nums) {
         if (nums.length == 0) {
             return result;
         }
+        Arrays.sort(nums);
         used = new boolean[nums.length];
-        backTracking(nums);
+        backtracking(nums);
         return result;
     }
 
-    public void backTracking(int[] nums) {
-        if (path.size() == nums.length) {
+    private void backtracking(int[] nums) {
+        if (path.size() >= nums.length) {
             result.add(new ArrayList<>(path));
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            if (used[i]) {
+            if (i > 0 && nums[i] == nums[i - 1] && used[i - 1] == false) {
                 continue;
             }
-            used[i] = true;
-            path.add(nums[i]);
-            backTracking(nums);
-            path.removeLast();
-            used[i] = false;
+            if (used[i] == false) {
+                used[i] = true;
+                path.add(nums[i]);
+                backtracking(nums);
+                path.removeLast();
+                used[i] = false;
+            }
         }
-    }
-
-    public static void main(String[] args){
-        int[] nums = {1, 2, 3};
-        Permute permute = new Permute();
-        List<List<Integer>> lists = permute.permute(nums);
-        lists.forEach(System.out::println);
     }
 
 }

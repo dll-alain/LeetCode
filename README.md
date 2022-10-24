@@ -47,6 +47,9 @@ LeetCode base on java
 - 1020 n皇后问题
 - 1021 解数独
 
+## session 4 1024 贪心算法
+- 1024 分发饼干
+
 
 
 

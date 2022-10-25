@@ -49,6 +49,7 @@ LeetCode base on java
 
 ## session 4 1024 贪心算法
 - 1024 分发饼干
+- 1025 摆动序列
 
 
 

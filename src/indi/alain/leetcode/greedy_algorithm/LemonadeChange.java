@@ -22,6 +22,9 @@ public class LemonadeChange {
                         five -= 3;
                     }
                 }
+                break;
+                default:
+                    throw new IllegalStateException("Unexpected value: " + bills[i]);
             }
             if (five < 0 || ten < 0) {
                 return false;

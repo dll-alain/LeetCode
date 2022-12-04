@@ -70,7 +70,7 @@ LeetCode base on java
 
 ## session 5 dynamic programming
 - 1203 斐波那契数列
-- 
+- 1204 爬楼梯最小花费
 
 
 

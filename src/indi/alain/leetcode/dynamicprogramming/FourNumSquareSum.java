@@ -20,5 +20,4 @@ public class FourNumSquareSum {
         }
         return dp[n];
     }
-
 }

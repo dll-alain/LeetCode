@@ -1,6 +1,7 @@
 package indi.alain.leetcode.dynamicprogramming;
 
 /**
+ * 可重复购买股票
  * @author d
  */
 public class PurchaseStockTwo {

@@ -93,6 +93,7 @@ LeetCode base on java
 - 1230 买彩票one
 - 0102 买彩票two
 - 0103 买彩票three
+- 0104 买彩票four
 
 
 

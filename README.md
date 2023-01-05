@@ -94,6 +94,7 @@ LeetCode base on java
 - 0102 买彩票two
 - 0103 买彩票three
 - 0104 买彩票four
+- 0105 买股票five
 
 
 

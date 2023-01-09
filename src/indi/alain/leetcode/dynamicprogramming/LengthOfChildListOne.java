@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author d
  */
-public class LengthOdChildListOne {
+public class LengthOfChildListOne {
     public int lengthOfLIS(int[] nums) {
         int len = nums.length;
         if (len == 1) return len;

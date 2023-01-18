@@ -1,6 +1,7 @@
 package indi.alain.leetcode.dynamicprogramming;
 
 /**
+ * 字回文字符串的数量 亮点是遍历顺序
  * @author d
  */
 public class CountSubString {

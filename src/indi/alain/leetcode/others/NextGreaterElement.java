@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
+ * 下一个更大数 单调队列 哈希表
  * @author d
  */
 public class NextGreaterElement {

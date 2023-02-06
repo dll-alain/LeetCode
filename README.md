@@ -111,6 +111,9 @@ LeetCode base on java
 
 ## session6 others
 - 0120 每日气温 单调队列
+- 过年😅
+- 0206 下一个更大数 单调队列 哈希表
+- 
 
 
 
